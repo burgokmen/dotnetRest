@@ -1,0 +1,322 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo/WorkintechRestApiDemo.csproj": {}
+  },
+  "projects": {
+    "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Business/WorkintechRestApiDemo.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Business/WorkintechRestApiDemo.Business.csproj",
+        "projectName": "WorkintechRestApiDemo.Business",
+        "projectPath": "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Business/WorkintechRestApiDemo.Business.csproj",
+        "packagesPath": "/Users/bgkmn/.nuget/packages/",
+        "outputPath": "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Business/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bgkmn/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Database/WorkintechRestApiDemo.Database.csproj": {
+                "projectPath": "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Database/WorkintechRestApiDemo.Database.csproj"
+              },
+              "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Domain/WorkintechRestApiDemo.Domain.csproj": {
+                "projectPath": "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Domain/WorkintechRestApiDemo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Portable.BouncyCastle": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Database/WorkintechRestApiDemo.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Database/WorkintechRestApiDemo.Database.csproj",
+        "projectName": "WorkintechRestApiDemo.Database",
+        "projectPath": "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Database/WorkintechRestApiDemo.Database.csproj",
+        "packagesPath": "/Users/bgkmn/.nuget/packages/",
+        "outputPath": "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Database/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bgkmn/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Domain/WorkintechRestApiDemo.Domain.csproj": {
+                "projectPath": "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Domain/WorkintechRestApiDemo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Domain/WorkintechRestApiDemo.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Domain/WorkintechRestApiDemo.Domain.csproj",
+        "projectName": "WorkintechRestApiDemo.Domain",
+        "projectPath": "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Domain/WorkintechRestApiDemo.Domain.csproj",
+        "packagesPath": "/Users/bgkmn/.nuget/packages/",
+        "outputPath": "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bgkmn/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo/WorkintechRestApiDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo/WorkintechRestApiDemo.csproj",
+        "projectName": "WorkintechRestApiDemo",
+        "projectPath": "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo/WorkintechRestApiDemo.csproj",
+        "packagesPath": "/Users/bgkmn/.nuget/packages/",
+        "outputPath": "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bgkmn/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Business/WorkintechRestApiDemo.Business.csproj": {
+                "projectPath": "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Business/WorkintechRestApiDemo.Business.csproj"
+              },
+              "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Database/WorkintechRestApiDemo.Database.csproj": {
+                "projectPath": "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Database/WorkintechRestApiDemo.Database.csproj"
+              },
+              "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Domain/WorkintechRestApiDemo.Domain.csproj": {
+                "projectPath": "/Users/bgkmn/Desktop/git-projects/workintech-dotnet-main/Projects/WorkintechRestApiDemo.Domain/WorkintechRestApiDemo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
